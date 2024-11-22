@@ -679,6 +679,7 @@ fill: #fff;
 
 .modal-form {
     padding: 16px 24px;
+    padding-bottom: 0;
 }
 
 .modal-container-form {
@@ -763,5 +764,82 @@ border: 1px solid #4d5ae5;
 .textarea-lable{
     margin-top: 8px;
     margin-bottom: 4px;
+}
+
+.agreement {
+    display: inline-flex;
+    margin-top: 16px;
+    
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+
+
+.label-agreement {
+font-weight: 400;
+    font-size: 12px;
+    line-height: 1.16667;
+    letter-spacing: 0.04em;
+    color: #8e8f99;
+    margin-left: 24px;
+}
+
+.text-agreement {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+border-radius: 2px;
+    border: 1px solid rgba(46, 47, 66, 0.4);
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    left: 0;
+    pointer-events: none;
+    fill: #fff;
+}
+
+.icon-agrement {
+
+}
+
+.link-agreement {
+line-height: 1.33333;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    color: #4d5ae5;
+}
+
+input[checked]:checkbox¬.text-agreement{
+    background-color: #404bbf;
+    border: 1px solid #404bbf;
+    fill: #f4f4fd;
+}
+
+.button-submit{
+    display: block;
+        border: none;
+        margin-top: 24px;
+        margin-bottom: 24px;
+        margin-left: auto;
+        margin-right: auto;
+    border-radius: 4px;
+        padding: 16px 32px;
+        width: 169px;
+        height: 56px;
+    font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        text-align: center;
+        color: #fff;
+        box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+            background-color: #4d5ae5;
+}
+
+.button-submit:hover,
+.button-submit:focus{
+    background-color:#404bbf;
 }
 
