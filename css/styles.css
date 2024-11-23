@@ -837,12 +837,14 @@ line-height: 1.33333;
 color: var(--link-color, #4d5ae5);
 }
 
-input[type='checkbox']:checked + .label-agreement 
+input[type='checkbox']:checked+.label-agreement,
 .text-agreement{
-    background-color: var(--span-bg-color-checked);
+    background-color: #404bbf;
 border: none;
-    fill: var(--icon-fill-checked);
+    fill: #F4F4FD;
 }
+
+
 
 .button-submit{
     font-family: "Roboto", sans-serif;
